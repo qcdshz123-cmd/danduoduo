@@ -23,7 +23,11 @@
         "backgroundColor": "#2563EB"
       },
       "package": "com.sudinghuo.app",
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -46,6 +50,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "942ee803-a60d-4423-9cf2-6c31f790baf3"
+      }
+    },
+    "owner": "qcdshz123"
   }
 }
